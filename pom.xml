@@ -125,8 +125,7 @@
     <atmosphere.runtime.version>3.0.5.slf4jvaadin1</atmosphere.runtime.version>
     <atmosphere.client.version>4.0.1</atmosphere.client.version>
 
-    <!-- OSGi -->
-    <!-- Note: the parserVersion value is set by build-helper-maven-plugin -->
+    
     <osgi.bundle.version>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}</osgi.bundle.version>
     <bnd.version>7.2.3</bnd.version>
     <osgi.core.version>7.0.0</osgi.core.version>
